@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
 
-p {
+h1 {
   font-family: "Yantramanav", sans-serif;
 }
 
@@ -11,4 +11,29 @@ p {
   height: 50px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+/* nav bar styling */
+
+/* articles styling*/
+
+.heroimage {
+  height: 90vh;
+  background: url("./images/chrissyraul.jpg") no-repeat center center/cover;
+  background-position: 25% 75% right 20%;
+}
+
+.about {
+  height: 90vh;
+  background-color: red;
+}
+
+.services {
+  height: 90vh;
+  background-color: green;
+}
+
+.reviews {
+  height: 90vh;
+  background-color: yellow;
 }
