@@ -31,26 +31,50 @@ li {
 /* articles styling*/
 
 body {
-  padding-top: 70px;
+  padding-top: 55px;
 }
 
 .heroimage {
   height: 90vh;
-  background: url("./images/chrissyraulwide.jpg") no-repeat center center/cover;
-  background-position: 25% 75% right 20%;
-  background-position: bottom;
+  background: url("./images/chrissyraulwide.jpg") no-repeat center/ cover;
+  background-position: botton;
+  text-align: center;
 }
 
-.about {
-  height: 90vh;
-  background-color: red;
+/* about styling*/
+
+.clydeblurb,
+h2 + p {
+  margin: 2.5%;
+  padding: 2.5%;
+  border: black solid 1px;
 }
+
+.certsize {
+  width: 30%;
+  margin: 2.5%;
+
+  height: 60vh;
+  border: black solid 1px;
+}
+
+.certsize h2 {
+  text-align: center;
+}
+
+/* services styling*/
 
 .services {
   height: 90vh;
   background-color: green;
 }
-/* footer styling 
+/* Reviews styling */
+/*
+.reviews {
+  background-color: #efedd6;
+  
+}
+
 .reviews {
   background-color: #efedd6;
   display: flex;
@@ -60,6 +84,7 @@ body {
   margin: 0;
 }
 */
+
 .box {
   background-color: steelblue;
   color: #fff;
@@ -101,6 +126,7 @@ i {
   color: #696666;
 }
 
+/* copyright line */
 .ptext {
   color: #696666;
   text-align: center;
@@ -124,7 +150,6 @@ i {
   .heroimage {
     height: 80vh;
     background: url("./images/chrissyraul.jpg") no-repeat center center/cover;
-    background-position: 25% 75% right 20%;
     background-position: bottom;
   }
 
@@ -137,7 +162,7 @@ i {
 
   .navbartitle {
     font-family: "Yantramanav", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .social-networks i {
@@ -154,5 +179,13 @@ i {
 
   .phonecopyright {
     margin: -15px;
+  }
+
+  /*about styling */
+  .certsize {
+    width: 95%;
+    margin: 2.5%;
+    height: 60vh;
+    border: black solid 1px;
   }
 }
