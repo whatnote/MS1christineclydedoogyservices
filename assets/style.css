@@ -49,7 +49,8 @@ li {
   display: inline;
 }
 
-.social-networks i {
+.social-networks,
+i {
   font-size: 32px;
   margin: 1%;
   padding: 1%;
@@ -71,11 +72,35 @@ li {
   font-size: 16px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .affinsize {
     width: 25px;
     height: 25px;
     margin-left: 3px;
     margin-right: 5px;
+  }
+
+  .navbartitle {
+    font-size: 16px;
+  }
+
+  .social-networks i {
+    font-size: 24px;
+    color: #696666;
+  }
+
+  .social-networks i {
+    font-size: 24px;
+    margin-left: 5%;
+    padding: 0%;
+    color: #696666;
+  }
+
+  .phonesocialmedia {
+    margin: -15px;
+  }
+
+  .phonecopyright {
+    margin: -15px;
   }
 }
