@@ -53,7 +53,7 @@ li {
   font-size: 32px;
   margin: 1%;
   padding: 1%;
-  color: #f82323;
+  color: #696666;
 }
 
 .ptext {
@@ -69,4 +69,13 @@ li {
   text-align: center;
   font-family: "karla", "sans-serif";
   font-size: 16px;
+}
+
+@media (max-width: 400px) {
+  .affinsize {
+    width: 25px;
+    height: 25px;
+    margin-left: 3px;
+    margin-right: 5px;
+  }
 }
